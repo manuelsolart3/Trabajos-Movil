@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#CCCCCC"
+    tools:context="com.fisrtproject.myapplication.ui.SegundaActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#6E28EA"
+        android:gravity="center_horizontal|top"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BIENVENIDO"
+            android:textColor="#FFF7CC"
+            android:textSize="40sp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textViewUsername"
+        android:layout_width="346dp"
+        android:layout_height="wrap_content"
+        android:text="Username"
+        android:textSize="40sp" />
+
+
+    <TextView
+        android:id="@+id/textViewPassword"
+        android:layout_width="277dp"
+        android:layout_height="wrap_content"
+        android:text="Username"
+        android:textSize="40sp" />
+    
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+
+
+</LinearLayout>
